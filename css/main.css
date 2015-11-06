@@ -11,7 +11,7 @@
     padding: 15px;
 }
 html {
-    font-family: "Lucida Sans", sans-serif;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 body { 
     background-color: #fff799;
@@ -53,16 +53,23 @@ nav a {
     color: #1F1F1F;
     border: none;
 }
+em  {
+    font-size: 10px;
+}
 h1  {
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 26.4px;
+    color: #3bb001;
+    text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+    text-transform: uppercase;
 }
 h2  {
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+
     font-size: 18px;
     font-style: normal;
     font-variant: normal;
@@ -78,7 +85,26 @@ h3  {
     line-height: 15.4px;
 }
 p   {
-
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 13.4px;
+}
+li  {
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 13.4px;
+}
+.blue   {
+    color: #4b4a83;
+}
+.yellow {
+    color: #fff799;
 }
 @media all and (min-width: 600px) {
     nav li {
@@ -112,35 +138,32 @@ p   {
         width: calc(100% / 3 - 1.5em);
     }
 }   
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color :#33b5e5;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-.menu li:hover {
-    background-color: #0099cc;
-}
 .aside {
-    background-color: #33b5e5;
+    background-color: #4b4a83;
     padding: 15px;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+.aside h2   {
+    color: ##fff799;
+}
 .footer {
-    background-color: #0099cc;
+    background-color: #f68067;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
     padding: 15px;
+}
+#banner {
+    margin: 0px auto;
+}
+
+#banner img {
+    border-radius: 8px;
+    height: auto;
+    width: 100%;
 }
 /* For mobile phones: */
 [class*="col-"] {
